@@ -48,10 +48,10 @@ ChatBot::~ChatBot()
 
         std::cout<<"Constructor copying"<<std::endl;
 
-        if(_image !=nullptr){
+        // if(_image !=nullptr){
 
-            delete _image;
-        }
+        //     delete _image;
+        // }
         
         _image=new wxBitmap();
         *_image=*source._image;
@@ -63,10 +63,10 @@ ChatBot::~ChatBot()
 
         std::cout<<"Constructor assignment"<<std::endl;
 
-        if(_image !=nullptr){
+        // if(_image !=nullptr){
 
-            delete _image;
-        }
+        //     delete _image;
+        // }
         
         _image=new wxBitmap();
         *_image=*source._image;
@@ -81,10 +81,10 @@ ChatBot::~ChatBot()
 
         std::cout<<"Constructor moving"<<std::endl;
 
-        if(_image !=nullptr){
+        // if(_image !=nullptr){
 
-            delete _image;
-        }
+        //     delete _image;
+        // }
         
         
         _image=source._image;
@@ -99,10 +99,10 @@ ChatBot::~ChatBot()
     ChatBot& ChatBot::operator=( ChatBot&& source){
         std::cout<<"Constructor moving assignment"<<std::endl;
 
-        if(_image !=nullptr){
+        // if(_image !=nullptr){
 
-            delete _image;
-        }
+        //     delete _image;
+        // }
         
         
         _image=source._image;

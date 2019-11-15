@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ros/Desktop/cppnd/CppND-Memory-Management-Chatbot/src/chatbot.cpp" "/home/ros/Desktop/cppnd/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
-  "/home/ros/Desktop/cppnd/CppND-Memory-Management-Chatbot/src/chatgui.cpp" "/home/ros/Desktop/cppnd/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
-  "/home/ros/Desktop/cppnd/CppND-Memory-Management-Chatbot/src/chatlogic.cpp" "/home/ros/Desktop/cppnd/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
-  "/home/ros/Desktop/cppnd/CppND-Memory-Management-Chatbot/src/graphedge.cpp" "/home/ros/Desktop/cppnd/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
-  "/home/ros/Desktop/cppnd/CppND-Memory-Management-Chatbot/src/graphnode.cpp" "/home/ros/Desktop/cppnd/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
+  "/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/src/chatbot.cpp" "/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
+  "/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/src/chatgui.cpp" "/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
+  "/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/src/chatlogic.cpp" "/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
+  "/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/src/graphedge.cpp" "/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
+  "/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/src/graphnode.cpp" "/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
