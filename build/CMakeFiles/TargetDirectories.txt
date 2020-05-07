@@ -1,3 +1,0 @@
-/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/build/CMakeFiles/rebuild_cache.dir
-/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/build/CMakeFiles/edit_cache.dir
-/home/test/Desktop/cppnd/Memory-Management-for-a-Chabot/build/CMakeFiles/membot.dir
