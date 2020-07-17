@@ -61,13 +61,14 @@ ChatBot::~ChatBot()
     }
     ChatBot& ChatBot::operator=(const ChatBot& source){
 
-        std::cout<<"Constructor assignment"<<std::endl;
+       // std::cout<<"Constructor assignment"<<std::endl;
 
         // if(_image !=nullptr){
 
         //     delete _image;
         // }
-        
+        if(this==&source)
+            return *this;
         _image=new wxBitmap();
         *_image=*source._image;
         _chatLogic=source._chatLogic;
@@ -104,7 +105,8 @@ ChatBot::~ChatBot()
         //     delete _image;
         // }
         
-        
+        if(this==&source)
+            return *this;
         _image=source._image;
         _chatLogic=source._chatLogic;
         _rootNode=source._rootNode;
